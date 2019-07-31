@@ -3,7 +3,7 @@ var demo123CF_CopyFieldValue = new function() {
 
     this.errorMessage = '';
 
-    this.id123cf = '#id123-control';
+    this.id123cf = '#id123-input';
     this.fieldOrigin = '';
     this.fieldDestination = '';
 
