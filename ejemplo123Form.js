@@ -12,7 +12,7 @@ var demo123CF_CopyFieldValue = new function() {
 
     this.errorMessage = '';
 
-    this.id123cf = '#id123-input';
+    this.id123cf = '#i123-input';
     this.fieldOrigin = '';
     this.fieldDestination = '';
 
@@ -32,7 +32,10 @@ var demo123CF_CopyFieldValue = new function() {
     this.validateData = function () {
         if(!$(this.id123cf+this.fieldOrigin).length)
             this.errorMessage = 'Invalid origin field';
-        
+        if(!$(this.id123cf+this.fieldDestination).length)
+		alert((this.id123cf+this.fieldDestination).toString());
+            this.errorMessage = 'Invalid destination field';
+
         return this.errorMessage == '';
     }
 
