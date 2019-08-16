@@ -1,8 +1,8 @@
-jQuery(document).ready(function() {
+$(document).ready(function() {
 
-alert("Entro");
+	alert("Entro");
 	// Short Text
-	jQuery('[data-id="55498518"] input').val(55498518);
+	$('[data-id="55498518"] input').val(55498518);
 
 
 
