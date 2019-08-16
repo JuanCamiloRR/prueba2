@@ -1,7 +1,7 @@
 jQuery(document).ready(function() {
 
 	// Short Text
-	jQuery('[data-id="55498518"] input').val('55498518');
+	jQuery('[data-id="55498518"] input').val(55498518);
 
 
 
