@@ -6,9 +6,9 @@ $( document ).ready(function() {
 	
     demo123CF_CopyFieldValue.init();
 	
-	alert("Entro 1");
+	alert("Entro 2");
 	// Short Text
-	$('[data-id="55501058"] input').val('55498518');
+	$('#data-id="55501058').val('55498518');
 	$('button[data-role="next-page"]').focus().click();
 });
 
