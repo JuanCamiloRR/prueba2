@@ -32,10 +32,7 @@ var demo123CF_CopyFieldValue = new function() {
     this.validateData = function () {
         if(!$(this.id123cf+this.fieldOrigin).length)
             this.errorMessage = 'Invalid origin field';
-        if(!$(this.id123cf+this.fieldDestination).length)
-		alert((this.id123cf+this.fieldDestination).toString());
-            this.errorMessage = 'Invalid destination field';
-
+        
         return this.errorMessage == '';
     }
 
