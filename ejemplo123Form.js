@@ -1,6 +1,6 @@
 
 $( document ).ready(function() {
-	alert("Conecto");
+	alert("Conecto 2");
      demo123CF_CopyFieldValue.setFieldOriginID('55501058');
     demo123CF_CopyFieldValue.setFieldDestinationID('55498518');
 	
