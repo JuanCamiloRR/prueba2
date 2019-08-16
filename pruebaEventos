@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
-	alert("Entro");
+	alert("Entro 1");
 	// Short Text
-	$('input[data-id="55501058"]').val('55498518');
+	$('[data-id="55501058"] input').val('55498518');
 	$('button[data-role="next-page"]').focus().click();
 
 
