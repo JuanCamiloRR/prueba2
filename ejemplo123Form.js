@@ -17,7 +17,7 @@ var demo123CF_CopyFieldValue = new function() {
 
     this.errorMessage = '';
 
-    this.id123cf = '#i123-input';
+    this.id123cf = '#id23-input';
     this.fieldOrigin = '';
     this.fieldDestination = '';
 
