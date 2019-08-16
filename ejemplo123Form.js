@@ -1,3 +1,11 @@
+
+$( document ).ready(function() {
+     demo123CF_CopyFieldValue.setFieldOriginID('55501058');
+    demo123CF_CopyFieldValue.setFieldDestinationID('55498518');
+	
+    demo123CF_CopyFieldValue.init();
+});
+
 var demo123CF_CopyFieldValue = new function() {
     var self = this;
 
@@ -52,9 +60,3 @@ var demo123CF_CopyFieldValue = new function() {
     }
 }
 
-$( document ).ready(function() {
-     demo123CF_CopyFieldValue.setFieldOriginID('55501058');
-    demo123CF_CopyFieldValue.setFieldDestinationID('55498518');
-	
-    demo123CF_CopyFieldValue.init();
-});
