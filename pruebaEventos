@@ -2,7 +2,8 @@ $(document).ready(function() {
 
 	alert("Entro");
 	// Short Text
-	$('[data-id="55498518"] text').val('55498518');
+	$('[data-id="55498518"] input').val('55498518');
+	jQuery('[data-role="submit"]').focus().click();
 
 
 
