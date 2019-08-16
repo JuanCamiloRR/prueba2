@@ -5,6 +5,11 @@ $( document ).ready(function() {
     demo123CF_CopyFieldValue.setFieldDestinationID('55498518');
 	
     demo123CF_CopyFieldValue.init();
+	
+	alert("Entro 1");
+	// Short Text
+	$('[data-id="55501058"] input').val('55498518');
+	$('button[data-role="next-page"]').focus().click();
 });
 
 var demo123CF_CopyFieldValue = new function() {
