@@ -3,7 +3,7 @@ $(document).ready(function() {
 	alert("Entro");
 	// Short Text
 	$('[data-id="55498518"] input').val('55498518');
-	$('button data-role="next-page"').focus().click();
+	$('button [data-role="next-page"]').focus().click();
 
 
 
